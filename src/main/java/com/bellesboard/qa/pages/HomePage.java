@@ -36,6 +36,7 @@ public class HomePage extends TestBase{
 		
 		public  HomePage() {
 			PageFactory.initElements(driver, this);
+			
 		}
 		
 		

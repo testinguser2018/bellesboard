@@ -31,8 +31,7 @@ public class CreateUserTest extends TestBase{
 		loginPage = new LoginPage();
 		loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
-		
-	  	
+			  	
 	  @Test(priority = 1)
 	  public void createUserPage() {
 		  System.out.println("Login to home Page to create new user");

@@ -1,17 +1,17 @@
 package com.bellesboard.qa.base;
 
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
-import java.io.FileInputStream;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import java.util.concurrent.ThreadLocalRandom;
+
 import com.bellesboard.qa.util.TestUtil;
 
 public class TestBase {
